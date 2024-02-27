@@ -25,11 +25,11 @@
           fontSize: '30px',
           fontWeight: 'bold',
           fontFamily: 'Courier New, sans-serif'
-      }
-    };
-  },
-  mounted() {
-    this.letters = this.message.split("");
-  }
-};
+        }
+      };
+    },
+    mounted() {
+      this.letters = this.message.split("");
+    }
+  };
 </script>
